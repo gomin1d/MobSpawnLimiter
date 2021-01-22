@@ -1,0 +1,8 @@
+name: MobSpawnLimiter
+main: ua.lokha.mobspawnlimiter.Main
+version: 1.0.1
+commands:
+  mobspawnlimiter:
+    aliases: mobspawnlimiter
+    description: Перезагрузить конфиг плагина.
+    permission: mobspawnlimiter.command

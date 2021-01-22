@@ -1,0 +1,53 @@
+# команда перезагрузки конфига /mobspawnlimiter (право: mobspawnlimiter.command)
+
+# лимит числа спавна мобов
+limit: 100
+# радиус в чанках, в которых будет действовать лимит
+radius-chunks: 10
+# количество тиков, в течении которого действует лимит
+ticks: 10
+
+# типы мобов, которые плагин будет игнорить и не учиывать в лимите
+ignore-entity-types:
+  - ARMOR_STAND
+  - BAT
+  - BLAZE
+  - CAVE_SPIDER
+  - CHICKEN
+  - COW
+  - CREEPER
+  - DONKEY
+  - DROPPED_ITEM
+  - ENDERMAN
+  - EXPERIENCE_ORB
+  - HORSE
+  - IRON_GOLEM
+  - ITEM_FRAME
+  - LEASH_HITCH
+  - LLAMA
+  - MINECART_CHEST
+  - MAGMA_CUBE
+  - MINECART_MOB_SPAWNER
+  - MINECART_HOPPER
+  - MINECART_FURNACE
+  - MULE
+  - MUSHROOM_COW
+  - OCELOT
+  - PARROT
+  - PIG
+  - PIG_ZOMBIE
+  - POLAR_BEAR
+  - RABBIT
+  - SHEEP
+  - SKELETON
+  - SKELETON_HORSE
+  - SNOWMAN
+  - SPIDER
+  - SQUID
+  - STRAY
+  - VEX
+  - VILLAGER
+  - WITCH
+  - WOLF
+  - ZOMBIE_HORSE
+  - ZOMBIE_VILLAGER
