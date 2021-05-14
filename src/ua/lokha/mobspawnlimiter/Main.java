@@ -73,7 +73,7 @@ public class Main extends JavaPlugin implements Listener {
     }
 
     @EventHandler(
-            priority = EventPriority.LOW
+            priority = EventPriority.LOWEST
     )
     public void on(EntityAddToWorldEvent event) {
         if (event.getEntityType().equals(EntityType.PLAYER)) {
